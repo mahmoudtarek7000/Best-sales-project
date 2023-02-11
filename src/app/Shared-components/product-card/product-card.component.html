@@ -1,0 +1,22 @@
+<div class="card-container">
+<div class="mask" [style]="getHeaderColor(productIndex)" ></div>
+<div class="card">
+  <div class="card-content">
+  <div class="card-header">
+<h2>
+  {{product.category}}
+</h2>
+  </div>
+  <div class="card-cost">
+    <p>{{product.price}}$</p>
+  </div>
+  <div class="card-description">
+    <p class="product-title">{{product.title}}</p>
+    <div>
+      <p>InStore</p>
+      <p>{{product.rating.count}}</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>

@@ -1,0 +1,13 @@
+.products-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 7rem;
+}
+@media only screen and (max-width:900px) {
+  .products-container{
+    justify-content: center;
+    margin: auto;
+  }
+}
